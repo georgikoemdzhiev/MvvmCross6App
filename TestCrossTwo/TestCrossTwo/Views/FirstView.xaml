@@ -8,9 +8,10 @@
     <StackLayout>
         <Entry Text="{Binding FirstName}"/>
         <Entry Text="{Binding LastName}"/>
-    	<Label Text="{Binding FullName}" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    	<Label Text="{Binding FullName}"/>
+        <Button Command="{Binding GoToCmd}"
+                Text="GoToNextScreen"/>
+
     </StackLayout>
 
 </mvx:MvxContentPage>

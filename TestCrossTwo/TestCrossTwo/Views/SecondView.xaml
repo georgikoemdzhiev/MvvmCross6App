@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<mvx:MvxContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:mvx="clr-namespace:MvvmCross.Forms.Views"
+                    x:Class="TestCrossTwo.Views.SecondView">
+
+    <StackLayout>
+        <Label Text="{Binding Name}"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</mvx:MvxContentPage>
